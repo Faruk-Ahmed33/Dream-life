@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-primary {
+    background-color: #DC09AE !important;
+    box-shadow: 0px 3px 5px white;
+}
+
+.active1 {
+    color: rgba(0, 0, 0) !important;
+}
+
+.container .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container .navbar-brand span {
+    color: orangered;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: .8s;
+
+}
+
+/* header end */
+
+/* slider start */
+#slider-img {
+    background-image: linear-gradient(to right, #212529b8, #17171580), url(../image/is.jpg);
+    height: 65vh;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+
+}
+
+.conteiner h1 {
+    font-size: 54px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.conteiner h1 span {
+    color: rgb(255, 217, 0);
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+/* bouncing ball start */
+.bouncing-ball {
+    width: 30px;
+    height: 60px;
+    border: 3px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 23px;
+    animation-name: faruk;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.bouncing-inner {
+    width: 8px;
+    height: 20px;
+    background: #ffffff;
+    margin-top: 17px;
+    margin-left: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@keyframes faruk {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+/* bouncing ball end  */
+
+.slider-content {
+    padding-top: 60px;
+}
+
+.content h1 {
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+
+}
+
+.content p {
+    color: rgba(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.slider-btn button {
+    padding: 10px 30px;
+    color: white;
+    background: #ffffff00;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 18px;
+    transition: all .5s ease-in-out;
+    transition: all .5s ease;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.slider-btn button:hover {
+    background: #ffffff;
+    color: #000000;
+    transition: .5s;
+}
+
+/* about section start  */
+.about-img {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #212529b8, #17171580);
+}
+
+.content-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-icon a i {
+    font-size: 20px;
+    padding: 8px;
+    background: #eeeff0;
+    border-radius: 100%;
+    color: #000000;
+
+}
+
+.about-icon a:hover i {
+    transform: rotate(360deg);
+    transition: all .7s ease;
+    color: #ff0000;
+    background-color: #ffffff;
+}
+
+
+
+.about-desciption h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.about-desciption p {
+    padding-top: 5px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.skill-bar h1 {
+    color: rgba(255, 0, 43);
+    text-transform: uppercase;
+
+}
+
+/* services section  */
+.ser span {
+    color: red;
+    font-weight: 600;
+
+}
+
+.servicesitem {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px #E8E8E8;
+
+}
+
+.icon {
+    padding-bottom: 10px;
+}
+
+.heading-text {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.ser-dec p {
+    font-weight: 400;
+    line-height: 23px;
+    font-family: Arial;
+}
+
+.ser-btn a {
+    padding: 12px 30px;
+    background: #ffffff00;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    transition: .5s ease;
+    text-transform: uppercase;
+
+}
+
+.ser-btn a:hover {
+    background-color: #000000;
+    transition: .5s ease;
+    border-radius: 25px;
+    color: rgba(255, 255, 255);
+
+}
+
+/* start contact page  */
+
+.btn.btn-primary {
+    padding: 0px 31px;
+    font-size: 27px;
+    border: 2px solid #239EFA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+}
+
+.btn.btn-primary:hover {
+    background: none;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: .5s;
+}
+
+/* blog setion start  */
+.blog-img:hover {
+    transform: scale(.9);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+/* footer start  */
+
+.footer {
+    height: 30vh;
+    background-color: #242424;
+    overflow: hidden;
+
+}
+
+.footer-section h5 {
+    padding-top: 10vh;
+    color: #ffffff;
+}
+
+.footer-icon {
+    padding-top: 20px;
+}
+
+.footer-icon a i {
+    font-size: 25px;
+    padding: 10px;
+    background: #343434;
+    border-radius: 100%;
+
+}
+
+.footer-icon a:hover i {
+    transform: rotate(360deg);
+    transition: all .7s ease;
+    color: #ffffff;
+    background-color: #ffffff;
+}
